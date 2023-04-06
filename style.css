@@ -1,0 +1,89 @@
+body {
+    background-color: #E8A0BF;
+}
+.judul-surat {
+    font-family: 'PT Serif', serif;
+    margin-top: 100px;
+    color: #FDF4F5;
+}
+.banner{
+    position: absolute;
+    width: 300px;
+    top: -10px;
+}
+.banner1{
+    position: absolute;
+    width: 300px;
+    top: -10px;
+    left: 420px;
+}
+.banner2{
+    position: absolute;
+    width: 300px;
+    top: -10px;
+    left: 720px;
+}
+.banner3{
+    position: absolute;
+    width: 300px;
+    top: -10px;
+    right: 0px;
+}
+.kue {
+    position: absolute;
+    width: 350px;
+    left: 510px;
+    top: 100px;
+}
+.tombol {
+    position: absolute;
+    top: 450px;
+    left: 560px;
+    background-color: #BA90C6;
+    color: white;
+    border: none;
+}
+.tombol:active {
+    background-color: #BA90C6;
+    color: white;
+    border: none;
+}
+.tombol1 {
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    background-color: #3A4F7A;
+    color: white;
+    border: none;
+}
+.tombol:hover {
+    background-color: #D58BDD;
+    color: white;
+    border: none;
+}
+.tombol1:hover {
+    background-color: #F5C6EC;
+    color: white;
+    border: none;
+}
+.hero{
+    position: absolute;
+    width: 350px;
+}
+.hero1{
+    position: absolute;
+    width: 350px;
+    right: 0px;
+}
+.kelap-kelip {
+    font-family: 'PT Serif', serif;
+    margin-top: 400px;
+    color: #FDF4F5;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
