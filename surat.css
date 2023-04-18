@@ -63,13 +63,37 @@ body {
 }
 .tombol1 {
     position: absolute;
-    top: 30px;
-    left: 300px;
+    top: 80px;
+    left: 350px;
     background-color: #3A4F7A;
     color: white;
     border: none;
+    z-index: 9999;
 }
 .tombol1:hover {
+    background-color: #F5C6EC;
+    color: white;
+    border: none;
+}
+.sembunyi {
+    display: none;
+}
+.surat {
+    width: 500px;
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.tombol2 {
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    background-color: #3A4F7A;
+    color: white;
+    border: none;
+    z-index: 9999;
+}
+.tombol2:hover {
     background-color: #F5C6EC;
     color: white;
     border: none;

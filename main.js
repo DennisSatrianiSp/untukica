@@ -7,4 +7,11 @@ function playAudio() {
 function putar() {
     var audio1 = document.getElementById("song");
     audio1.play();
-}  
+}
+function buka(){
+  document.getElementById('surat').classList.add('sembunyi');
+  alert('SELAMAT ULANG TAHUN ICA NUR FAIDZAH !');
+  document.getElementById('card').classList.remove('sembunyi');
+  var audio1 = document.getElementById("song");
+    audio1.play();
+}
